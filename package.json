@@ -1,0 +1,29 @@
+{
+  "name": "node-aws-ses",
+  "version": "1.0.0",
+  "description": "SMTP Relay for AWS SES using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/jagerine/node-aws-ses"
+  },
+  "keywords": [
+    "nodeJS",
+    "AWS",
+    "SES",
+    "smtp",
+    "relay"
+  ],
+  "author": "JJ May <jagerine@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mailparser": "^3.6.5",
+    "nodemailer": "^6.9.7",
+    "smtp-server": "^3.13.0"
+  }
+}
